@@ -1,2 +1,2 @@
 # QQChatAnalyzer
-Data analyzer for QQ messages
+Data analysis package in python for QQ messages
