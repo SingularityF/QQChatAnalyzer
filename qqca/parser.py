@@ -17,6 +17,7 @@ def get_date(str):
     return (int(year),int(month),int(day))
 
 # Get the LOCAL time from a info line
+# Hour now 0-23
 def get_time(str):
     datetime=dateparser.parse(re.findall(r"(\d+:\d{2}:\d{2} \wM)",str)[0])
     return (datetime.hour,datetime.minute,datetime.second)
